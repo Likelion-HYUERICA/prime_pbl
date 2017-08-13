@@ -1,22 +1,12 @@
-<style>
-  @media (max-width: 767px) { 
-    img.main-cover-image {
-      display: none;
-    }
-    .row {
-      margin : 0px;
-    }
-    img.main-logo-image {
-      width: 100px;
-      margin-bottom: 150px;
-    }
-  }
+
+<style>  
+  
   body {
     font-family: 'Noto Sans', sans-serif;
     margin : 0px;
   }
   img.main-logo-image {
-      margin-bottom: 70px;
+      margin-bottom: 100px;
     }
   .login-section {
     height: 100vh;
@@ -58,16 +48,29 @@
     background-color: #2D75CA;
     color: #fff;
   }
+
+  @media (max-width: 767px) { 
+    img.main-cover-image {
+      display: none;
+    }
+    .row {
+      margin : 0px;
+    }
+    img.main-logo-image {
+      width: 120px;
+      margin-bottom: 100px;
+    }
+  }
 </style>
 <div class="row">
   <div class="col-md-5">
-    <img class="main-cover-image"src="main-cover.jpeg" height="823px" class="img-fluid" alt="">
+    <img class="main-cover-image"src="main-cover.jpeg" height="803px" class="img-fluid" alt="">
   </div>
   <div class="col-md-7">
     <div class="login-section">
 
       <div class="login-box">
-        <img class="main-logo-image" src="main-logo.png" width="250px" class="img-fluid" alt="">
+        <img class="main-logo-image" src="main-logo.png" width="125px" class="img-fluid" alt="">
         <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
           <div class="form-inputs">
             <%= f.input :email, label: 'EMAIL', required: false, placeholder: '이메일', autofocus: true, class: 'form-design' %>
