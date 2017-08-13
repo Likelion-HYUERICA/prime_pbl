@@ -1,0 +1,180 @@
+<style>
+  body {
+    height: 100vh;
+  }
+  input {
+    height: 42px;
+    margin-right: 14px;
+
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+    height: 65px;
+  }
+  .main{
+    display:flex;
+    flex-wrap: nowrap;
+    height: 738px;
+  }
+  .side-bar {
+    background-color: #064A9A;
+    width:187px;
+    height: 100%;
+  }
+  .main-content {
+    padding: 54px;
+    width: 1253px;
+    background-color: #F2F6F9;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .date {
+    width: 100%;
+    height: 25%;
+  }
+  .building {
+    width: 100%;
+    height: 75%;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    width: 187px;
+  }
+  .page-info {
+    margin-left: 54px;
+  }
+  .page-info > p {
+    font-size:17px;
+    color: #064A9A;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  .page-location > p {
+    margin-left: 10px;
+    color: #D1D1D1;
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  .page-header {
+    display: flex;
+    width: 1253px;
+    justify-content: space-between;
+  }
+  .page-one {
+    display: flex;
+    align-items: center;
+  }
+  .page-two {
+    display: flex;
+    align-items: center;
+    margin-right: 54px;
+  }
+  p {
+    margin-bottom: 0px;
+  }
+  .student-school > p {
+    font-size: 12px;
+    color: #064A9A;
+    margin-right: 10px;
+  }
+  .student-name > p {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .logout-btn {
+    border: 1px solid;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-size: 10px;
+    color: #064A9A;
+  }
+  hr {
+    margin-top: 1px;
+    color: #3F3D41;
+    margin-bottom: 1px;
+  }
+  .date > p {
+    color: #3F3D41;
+    font-size:15px;
+    font-weight: 500;
+  }
+  .building > p {
+    color: #3F3D41;
+    font-size: 15px;
+    font-weight: 500;
+  }
+   p.cautious{
+    font-size: 10px;
+    padding-left: 5px;
+    color: #D1D1D1;
+    font-weight: normal;
+  }
+  button {
+    height: 30px;
+    font-size: 11px !important;
+  }
+  form {
+    margin-top: 5px;
+  }
+  .submit-btn {
+    border: 1px #2D75CA solid;
+    background-color:#2D75CA;
+    color: #fff;
+  }
+</style>
+
+<nav class="navigation">
+  <div class="logo">
+    <a class="navbar-brand" href="#"><%= image_tag 'main-logo.png', class: 'main-logo-image img-fluid', width: '80px'%></a>
+  </div>
+  <div class="page-header">
+    <div class="page-one">
+      <div class="page-info">
+        <p>날짜 / 학교 건물 선택</p>
+      </div>
+      <div class="page-location">
+        <p>pbl예약하기 > 날짜 / 학교 건물</p>
+      </div>
+    </div>
+    <div class="page-two">
+      <div class="student-school">
+        <p>소프트웨어융합대학</p>
+      </div>
+      <div class="student-name">
+        <p>윤지우</p>
+      </div>
+      <div class="logout-btn">
+        <p>로그아웃</p>
+      </div>
+    </div>
+  </div>
+  
+</nav>
+<div class="main">
+  <div class="side-bar"> 
+  </div>
+  <div class="main-content"> 
+    <div class="date">
+      <p>날짜</p>
+      <hr>
+      <p class="cautious">* 이용하실 날짜를 선택해주세요.</p>
+      <form class="form-inline" action="#">
+        <input class="form-control" type="date" name="date">
+        <input class="form-control submit-btn" type="submit" value="확인">
+      </form>
+    </div>
+    <div class="building">
+      <p>학교 건물</p>
+      <hr>
+      <p class="cautious">* 이용하실 건물을 선택해주세요.</p>
+      <div class="school-picker">
+        
+      </div>
+    </div>
+  </div>
+</div>

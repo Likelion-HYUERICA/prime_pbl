@@ -7,4 +7,7 @@ class HomeController < ApplicationController
     redirect_to @record
   end
   end
+  def school
+  	
+  end
 end
