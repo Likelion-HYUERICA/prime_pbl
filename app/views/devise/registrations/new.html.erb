@@ -1,17 +1,120 @@
-<h2>Sign up</h2>
+<style>
 
-<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-  <%= f.error_notification %>
+	body {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+    	/*text-align: center;*/
+  	}
+	.signup-box {
+		width:332px;
+		text-align: center;
+	}
+	input {
+	    width:100%;
+	    border-radius: 5px;
+	    border-width: 1px;
+	    height: 38px;
+	    margin:0px;
+	    font-size:13px;
+	    margin-bottom: 20px;
+	    border-color: #BAB8B9;
+  	}
+  	label {
+	   	float:left;
+	   	font-size: 13px;
+	   	margin-bottom: 0px;
+	   	margin-top: 10px;
+ 	}
+ 	.form-inputs {
+	    width:332px;
+	    text-align: center;
+	    margin-bottom: 70px;
+	 }
+	input.btn {
+	 	width: 332px;
+	    background-color: #2D75CA;
+	    color: #fff;
+	  }
+	img.main-logo-image {
+      margin-bottom: 70px;
+    }
+	.hint-left {
+		display: flex;
+		justify-content: flex-start;
+		font-size: 11px;
+		margin-top: 1px;
+	}
+	input.optional {
+		margin-bottom: 0px;
+	}
+	.dropdown>button {
+		width: 332px !important;
+		border-color: #2D75CA;
+	    color: #2D75CA;
+	    background-color: #fff;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+	.dropdown>label {
+		margin-top: 10px;
+	}
+	.dropdown-menu {
+		width: 332px;
+	}
+	.dropdown-menu>a {
+		font-size: 13px;
+	}
+	button.dropdown-toggle {
+		font-size: 13px;
+	}
+	.btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+		border-color: #2D75CA;
+	    color: #2D75CA;
+	    background-color: #fff;
+	}
+	.btn-secondary:focus, .btn-secondary.focus {
+		border-color: #2D75CA;
+	    color: #2D75CA;
+	    background-color: #fff;
+	}
+	.btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+		border-color: #2D75CA;
+	    color: #2D75CA;
+	    background-color: #fff;
+	}
+</style>
 
-  <div class="form-inputs">
-    <%= f.input :email, required: true, autofocus: true %>
-    <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
-    <%= f.input :password_confirmation, required: true %>
-  </div>
+<div class="signup-box">
+	<%= image_tag 'main-logo.png', class: 'main-logo-image img-fluid', width: '125px'%>
 
-  <div class="form-actions">
-    <%= f.button :submit, "Sign up" %>
-  </div>
-<% end %>
-
-<%= render "devise/shared/links" %>
+	<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+	  	<div class="form-inputs">
+		    <%= f.input :email, label: '이메일', placeholder: '@hanyang.ac.kr', class: 'hello', required: false, autofocus: true %>
+		    <div class="hint-left">
+		    	<p>*한양 메일로 가입해주시기 바랍니다.</p>
+		    </div>
+		    <%= f.input :password, label: '비밀번호', required: false %>
+		    <%= f.input :password_confirmation, label: '비밀번호 확인', required: false %>
+			
+			<div class="dropdown">
+			  <label>소속대학</label>
+			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    학교선택
+			  </button>
+			  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			  	<a class="dropdown-item" href="#">소프트웨어융합대학</a>
+			    <a class="dropdown-item" href="#">공학대학</a>
+			    <a class="dropdown-item" href="#">경상대학</a>
+			    <a class="dropdown-item" href="#">디자인대학</a>
+			  </div>
+			</div>
+		</div>
+	  <div class="form-actions">
+	    <%= f.button :submit, "Sign up" %>
+	  </div>
+	<% end %>
+</div>
+   	

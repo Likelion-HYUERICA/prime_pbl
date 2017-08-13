@@ -1,8 +1,7 @@
 
 <style>  
-  
+
   body {
-    font-family: 'Noto Sans', sans-serif;
     margin : 0px;
   }
   img.main-logo-image {
@@ -32,6 +31,7 @@
     margin:0px;
     font-size:14px;
     margin-bottom: 20px;
+    border-color: #BAB8B9;
   }
   label {
     float:left;
@@ -64,7 +64,7 @@
 </style>
 <div class="row">
   <div class="col-md-5">
-    <img class="main-cover-image"src="main-cover.jpeg" height="803px" class="img-fluid" alt="">
+    <%= image_tag 'main-cover.jpeg', class: 'main-cover-image img-fluid', width: '803px'%>
   </div>
   <div class="col-md-7">
     <div class="login-section">
