@@ -1,5 +1,5 @@
 class ModelMailer < ApplicationMailer
-  default from: "sandboxee95f37da1cb4fdf8b0d5034c724ed32.mailgun.org"
+
   # Subject can be set in your I18n file at config/locales/en.yml
   # with the following lookup:
   #
@@ -7,7 +7,7 @@ class ModelMailer < ApplicationMailer
   #
   def new_record_notification
     @greeting = "Hi"
-    @record = record
-    mail to: "kdpark1623@gmail.com", subject: "Success! You did it."
+
+    mail to: "to@example.org"
   end
 end

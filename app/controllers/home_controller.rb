@@ -1,9 +1,9 @@
 class HomeController < ApplicationController
   def index
-  @record = User.new
+  @record = User.new #유저 생성 후 변수 저장
     
   if @record.save
-    ModelMailer.new_record_notification(@record).deliver
+    ModelMailer.new_record_notification(@record).deliver # 유저에게 메일을 보내주는 메소드
     redirect_to @record
   end
   end
