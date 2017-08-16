@@ -24,4 +24,15 @@
   <body>
     <%= yield %>
   </body>
+  <script> 
+    $(document).ready(function(){
+        $(".room-box").click(function(){
+            $(this).addClass("prev");
+            $(".room-content").slideUp();
+            $(".prev").show();
+            $(this).hide();
+            $(this).next(".room-content").slideDown();
+        });
+    });
+</script>
 </html>

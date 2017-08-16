@@ -1,0 +1,229 @@
+// Place all the styles related to the time controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	ul {
+		list-style-type: none;
+	}
+	height: 100vh;
+	input {
+		height: 42px;
+		margin-right: 14px;
+	}
+	.navigation {
+		display: flex;
+		align-items: center;
+		height: 65px;
+	}
+	.main{
+		display:flex;
+		flex-wrap: nowrap;
+		height: 738px;
+	}
+	
+	.main-content {
+		padding: 54px;
+		width: 1253px;
+		background-color: #F2F6F9;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.date {
+		width: 100%;
+		height: 117px;
+	}
+	.building {
+		width: 100%;
+		height: 75%;
+	}
+	.logo {
+		display: flex;
+		justify-content: center;
+		width: 187px;
+	}
+	.page-info {
+		margin-left: 54px;
+	}
+	.page-info > p {
+		font-size:17px;
+		color: #064A9A;
+		font-weight: bold;
+		margin-bottom: 0px;
+	}
+	.page-location > p {
+		margin-left: 10px;
+		color: #D1D1D1;
+		font-size: 10px;
+		margin-bottom: 0px;
+	}
+	.page-header {
+		display: flex;
+		width: 1253px;
+		justify-content: space-between;
+	}
+	.page-one {
+		display: flex;
+		align-items: center;
+	}
+	.page-two {
+	display: flex;
+		align-items: center;
+		margin-right: 54px;
+	}
+	p {
+		margin-bottom: 0px;
+	}
+	.student-school > p {
+		font-size: 12px;
+		color: #064A9A;
+		margin-right: 10px;
+	}
+	.student-name > p {
+		font-size: 12px;
+		margin-right: 10px;
+	}
+	.logout-btn {
+		border: 1px solid;
+		border-radius: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		padding-right: 12px;
+		padding-left: 12px;
+		font-size: 10px;
+		color: #064A9A;
+	}
+	hr {
+		margin-top: 1px;
+		color: #3F3D41;
+		margin-bottom: 1px;
+	}
+	.date > p {
+		color: #3F3D41;
+		font-size:15px;
+		font-weight: 500;
+	}
+	.building > p {
+		color: #3F3D41;
+		font-size: 15px;
+		font-weight: 500;
+	}
+	p.cautious{
+		font-size: 10px;
+		padding-left: 5px;
+		margin-bottom: 5px;
+		color: #D1D1D1;
+		font-weight: normal;
+	}
+	button {
+		height: 30px;
+		font-size: 11px !important;
+	}
+	form {
+		margin-top: 5px;
+	}
+	.submit-btn {
+		border: 1px #2D75CA solid;
+		background-color:#2D75CA;
+		color: #fff;
+	}
+
+	// Side-Bar
+	
+	.side-bar {
+		background-color: #064A9A;
+		width:187px;
+		height: 100%;
+		padding-top: 55px;
+	}
+	.side-bar > hr {
+		background-color: #fff;
+		opacity: 0.7;
+		width: 167px;
+		margin-left: 20px;
+	}
+	.side-menu-header > p {
+		font-size: 12px;
+		color: #fff;
+		padding-top: 3px;
+	}
+	
+	.side-menu-header {
+		padding-left: 25px;
+		width: 100%;
+		display: flex;
+		justify-content: flex-start;
+	}
+	.side-menu-list {
+		width: 100%;
+		padding-left: 50px;
+		display: flex;
+		justify-content: flex-start;
+		margin-bottom: 30px;
+	}
+	.side-menu-list > ul {
+		padding-top: 5px;
+		padding-left: 0px;
+	}
+	.side-menu-list > ul > li {
+		font-size: 11px;
+		color: #fff;
+		opacity: 0.7;
+		padding-bottom: 5px;
+		font-weight: 200;
+	}
+	img.list-logo {
+		vertical-align: text-bottom;
+		width: auto;
+		margin-right: 7px;
+    	height: 18px;
+    	margin-bottom: 2px;
+	}
+
+	// Room Selection
+
+	.room-box {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 31px;
+		border: 1px solid #BABBB9;
+		border-radius: 5px;
+	}
+	.room-box > p {
+		font-size: 13px;
+		color: #3F3D41;
+		margin-left: 5px;
+	}
+	.room-content > p {
+		font-size: 13px;
+		color: #064A9A;
+		margin-left: 5px;
+		margin-bottom: 5px;
+	}
+	.room-content {
+		width: 100%;
+		height: 350px;
+		padding-top: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		background-color: #fff;
+		border: 2px solid #064A9A;
+		display: none;
+		border-radius: 5px;
+		box-shadow: 0 0 3px black;
+	}
+	.room-content-row {
+		display: flex;
+		justify-content:space-between;
+		height: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.room {
+		border: 1px solid black;
+		width: 377px;
+		height: 100%;
+
+	}
+}
