@@ -17,8 +17,8 @@ development:
   database: prime_pbl	# 실제 mysql에 생성되는 database 이름
   pool: 5
   username: root		# mysql에 접속할 id와 password
-  password: root
-  socket: /tmp/mysql.sock  
+  password: "password"
+  socket:  /var/run/mysqld/mysqld.sock 
   
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

@@ -5,8 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 # login
-gem 'devise'
-#Database
+gem 'devise', '~> 4.3'
+# Database
 gem 'mysql2'
 gem 'rails_db'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

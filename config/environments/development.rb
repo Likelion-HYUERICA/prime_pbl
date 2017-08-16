@@ -27,7 +27,7 @@ Rails.application.configure do
   end
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
 
   config.action_mailer.perform_caching = false
 
@@ -52,15 +52,28 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
+  #   config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   :authentication => :plain,
+  #   :address => 'smtp.mailgun.org', # SMTP Hostname
+  #   :port => 587,
+  #   :domain => 'sandboxdc8007399ce2485b94e94120d5922c18.mailgun.org', # Maingul Sandbox Domain
+  #   :user_name => 'postmaster@sandboxdc8007399ce2485b94e94156d5922c65.mailgun.org', # Default SMTP Login
+  #   :password => '6dc84450fd6510d5b28427a9369afde0' # Default Password
+  # }
+  # 메일러 설정 (바꾸지 마세요!)
+  # FIXME: 메일 호스트 네임 바꾸기.
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
   config.action_mailer.smtp_settings = { 
     :authentication => :plain,
     :address => "smtp.mailgun.org",
-    :port => 587,
+    :port => 2525,
     :domain => "sandboxee95f37da1cb4fdf8b0d5034c724ed32.mailgun.org",
     :user_name => "postmaster@sandboxee95f37da1cb4fdf8b0d5034c724ed32.mailgun.org",
-    :password => "04c669de921b3710ad617a5fe93f458c"
+    :password => "04c669de921b3710ad617a5fe93f458c",
+    :enable_starttls_auto => true  
   }
-  config.action_mailer.default_url_options = {host:'localhost:3000'}
+  config.action_mailer.default_url_options = {host:'https://rails5-fmoth.c9users.io'}
   
 end
