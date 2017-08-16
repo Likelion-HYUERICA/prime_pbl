@@ -4617,3 +4617,450 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 166.104.217.128 at 2017-08-16 01:55:45 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (3.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (19016.9ms)
+Completed 200 OK in 19138ms (Views: 19100.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/users/sign_in" for 166.104.217.128 at 2017-08-16 01:56:42 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info" for 166.104.217.128 at 2017-08-16 01:57:30 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::InfoController#index as HTML
+Redirected to https://rails5-fmoth.c9users.io/rails/info/routes
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for 166.104.217.128 at 2017-08-16 01:57:30 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::InfoController#routes as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.4/gems/railties-5.1.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-5.1.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (10.8ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-5.1.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (6.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-5.1.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/railties-5.1.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 166.104.217.128 at 2017-08-16 02:02:11 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (340.3ms)
+Completed 200 OK in 435ms (Views: 393.5ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/users/sign_in" for 166.104.217.128 at 2017-08-16 02:02:31 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 166.104.217.128 at 2017-08-16 02:02:37 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 83ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 166.104.217.128 at 2017-08-16 02:02:44 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XcsnjzRqiX3HFkxjGjQuX2GLhCHQYvyBo2ffj3Yfm8Hlrti5ZBBecj0uhWWfNiD32VbZ6Yl7g4R8tA18UWxUpw==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 82ms (Views: 63.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/rails/info" for 166.104.217.128 at 2017-08-16 02:03:03 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::InfoController#index as HTML
+Redirected to https://rails5-fmoth.c9users.io/rails/info/routes
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for 166.104.217.128 at 2017-08-16 02:03:03 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::InfoController#routes as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.4/gems/railties-5.1.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-5.1.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (10.1ms)
+  Rendered collection of /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-5.1.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (8.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-5.1.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/railties-5.1.3/lib/rails/templates/rails/info/routes.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 166.104.217.128 at 2017-08-16 02:04:45 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 166.104.217.128 at 2017-08-16 02:04:51 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.217.128 at 2017-08-16 02:04:55 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sLc4kYnCdrNWKwR6lyWXIiCEPDL/uHUD5TyZegNqDokI0sen2bihvKwTzXwSJ5mKmFlh+qahCgY670uJJBnB7w==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 02:04:56', `sign_in_count` = 2, `updated_at` = '2017-08-16 02:04:56' WHERE `users`.`id` = 1[0m
+  [1m[35m (4.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 188ms (ActiveRecord: 7.1ms)
+
+
+Started GET "/" for 166.104.217.128 at 2017-08-16 02:04:56 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.217.128 at 2017-08-16 02:05:06 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1k/GEEPnPX8WbwL2ASdprc3UgQKnIOPlhClj0lBvw1eTXLDkJ0PN6ydXUNVIr774eT5slkQ8F85uLucpEwgNUQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 32ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 166.104.217.128 at 2017-08-16 02:05:06 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 166.104.217.128 at 2017-08-16 02:05:16 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 166.104.217.128 at 2017-08-16 02:07:23 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 166.104.217.128 at 2017-08-16 02:07:43 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 166.104.217.128 at 2017-08-16 02:07:57 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Nl6LO/eZlscq/WehTN6+kaLS8MzMJJ/KjhaM4gZZiFHPTDWt7HBUje9LqetVqky/R/3gWMGteFhfdTuKpKs8XA==", "user"=>{"email"=>"kdpark1623@naver.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (1.3ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kdpark1623@naver.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 191ms (Views: 35.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/users" for 166.104.217.128 at 2017-08-16 02:08:44 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5rvdVoAtaHO1P1Ebc8hhSv0phuNLDyQyKK9qkvXRP6bGZF5kUUkefn/klcqSRFzM/ywHz++a7RYCb6l073Hf7A==", "user"=>{"email"=>"kdpark1623@naver.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kdpark1623@naver.com' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO `users` (`email`, `encrypted_password`, `confirmation_token`, `confirmation_sent_at`, `created_at`, `updated_at`) VALUES ('kdpark1623@naver.com', '$2a$11$4B4EfcA7ioiSaONwx.MW.OwvGpN8wD.n3O7jCgX5VfHE3dM/qOao2', '_4DzBy274sFBh8AQ-hXx', '2017-08-16 02:08:44', '2017-08-16 02:08:44', '2017-08-16 02:08:44')[0m
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering devise/mailer/confirmation_instructions.html.erb
+  Rendered devise/mailer/confirmation_instructions.html.erb (1.5ms)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 226.2ms
+Sent mail to kdpark1623@naver.com (3605.5ms)
+Date: Wed, 16 Aug 2017 02:08:45 +0000
+From: kdpark1623@gmail.com
+Reply-To: kdpark1623@gmail.com
+To: kdpark1623@naver.com
+Message-ID: <5993a92daf3a9_85211a81a8c686fd@fmoth-rails5-5220419.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PHA+7ZmY7JiB7ZWp64uI64ukISBrZHBhcmsxNjIzQG5hdmVyLmNvbSE8L3A+
+Cgo8cD7slYTrnpjsl5Ag66eB7YGs66W8IO2Gte2VtCDsnbjspp3smYTro4wg
+7ZWY7Iuc66m0IOuQqeuLiOuLpCE6PC9wPgoKPHA+PGEgaHJlZj0iaHR0cHM6
+Ly9yYWlsczUtZm1vdGguYzl1c2Vycy5pby91c2Vycy9jb25maXJtYXRpb24/
+Y29uZmlybWF0aW9uX3Rva2VuPV80RHpCeTI3NHNGQmg4QVEtaFh4Ij5Db25m
+aXJtIG15IGFjY291bnQ8L2E+PC9wPgoKPHA+IOqwkOyCrO2VqeuLiOuLpCEg
+PC9wPg==
+
+Completed 500 Internal Server Error in 4528ms (ActiveRecord: 6.8ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in Account Settings.
+):
+  
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:965:in `check_response'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:919:in `data'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:664:in `block in send_message'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:859:in `rcptto_list'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:664:in `send_message'
+mail (2.6.6) lib/mail/network/delivery_methods/smtp.rb:112:in `block in deliver!'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:522:in `start'
+mail (2.6.6) lib/mail/network/delivery_methods/smtp.rb:111:in `deliver!'
+mail (2.6.6) lib/mail/message.rb:2149:in `do_delivery'
+mail (2.6.6) lib/mail/message.rb:237:in `block in deliver'
+actionmailer (5.1.3) lib/action_mailer/base.rb:558:in `block in deliver_mail'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.3) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `instrument'
+actionmailer (5.1.3) lib/action_mailer/base.rb:556:in `deliver_mail'
+mail (2.6.6) lib/mail/message.rb:237:in `deliver'
+actionmailer (5.1.3) lib/action_mailer/message_delivery.rb:96:in `block in deliver_now'
+actionmailer (5.1.3) lib/action_mailer/rescuable.rb:15:in `handle_exceptions'
+actionmailer (5.1.3) lib/action_mailer/message_delivery.rb:95:in `deliver_now'
+devise (4.3.0) lib/devise/models/authenticatable.rb:191:in `send_devise_notification'
+devise (4.3.0) lib/devise/models/confirmable.rb:119:in `send_confirmation_instructions'
+devise (4.3.0) lib/devise/models/confirmable.rb:181:in `send_on_create_confirmation_instructions'
+activesupport (5.1.3) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.3) lib/active_support/callbacks.rb:260:in `block in conditional'
+activesupport (5.1.3) lib/active_support/callbacks.rb:511:in `block in invoke_after'
+activesupport (5.1.3) lib/active_support/callbacks.rb:511:in `each'
+activesupport (5.1.3) lib/active_support/callbacks.rb:511:in `invoke_after'
+activesupport (5.1.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+activesupport (5.1.3) lib/active_support/callbacks.rb:827:in `_run_commit_callbacks'
+activerecord (5.1.3) lib/active_record/transactions.rb:343:in `committed!'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:86:in `commit_records'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:178:in `block in commit_transaction'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:168:in `commit_transaction'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:207:in `block in within_new_transaction'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:191:in `within_new_transaction'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/database_statements.rb:235:in `transaction'
+activerecord (5.1.3) lib/active_record/transactions.rb:210:in `transaction'
+activerecord (5.1.3) lib/active_record/transactions.rb:381:in `with_transaction_returning_status'
+activerecord (5.1.3) lib/active_record/transactions.rb:308:in `block in save'
+activerecord (5.1.3) lib/active_record/transactions.rb:323:in `rollback_active_record_state!'
+activerecord (5.1.3) lib/active_record/transactions.rb:307:in `save'
+activerecord (5.1.3) lib/active_record/suppressor.rb:42:in `save'
+devise (4.3.0) app/controllers/devise/registrations_controller.rb:17:in `create'
+actionpack (5.1.3) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.3) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.3) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.3) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.3) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.3) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.3) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.3) lib/action_dispatch/routing/mapper.rb:16:in `block in <class:Constraints>'
+actionpack (5.1.3) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.3) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 166.104.217.128 at 2017-08-16 02:45:38 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (6.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (1156.2ms)
+Completed 200 OK in 1402ms (Views: 1352.5ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/users/sign_in" for 166.104.217.128 at 2017-08-16 02:45:43 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PhVPiit9Uxc+ZX1zyzTTxBNrkEKeG1oZh17Bp1N3Lskeysy4+hklGvS+uaIquO5CEW4RbjqOkz2tngJBSdfOgw==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (1.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (9.8ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 02:45:43', `last_sign_in_at` = '2017-08-16 02:04:56', `sign_in_count` = 3, `updated_at` = '2017-08-16 02:45:43' WHERE `users`.`id` = 1[0m
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 386ms (ActiveRecord: 19.8ms)
+
+
+Started GET "/" for 166.104.217.128 at 2017-08-16 02:45:43 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 118ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.217.128 at 2017-08-16 02:45:48 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bNsjevgWkDgnri/SlwOuskTiyS6hOdxub0BGdnu0qXUHKoQGEVVnrNwX0HSF840oPDjCuu4xfKHi39UxhnF1Jw=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 76ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 166.104.217.128 at 2017-08-16 02:45:49 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (80.6ms)
+Completed 200 OK in 284ms (Views: 282.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.217.128 at 2017-08-16 02:45:53 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gkl2zVaz35iK19GR3IFWE41o322cbuxZzeerHYwbv+RNcv2NhnhILPynPiy+FDuS26bR8WXC/l0cI5+kWYYLbQ==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (45.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 02:45:54', `last_sign_in_at` = '2017-08-16 02:45:43', `sign_in_count` = 4, `updated_at` = '2017-08-16 02:45:54' WHERE `users`.`id` = 1[0m
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 328ms (ActiveRecord: 52.1ms)
+
+
+Started GET "/" for 166.104.217.128 at 2017-08-16 02:45:54 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 65ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.217.128 at 2017-08-16 02:45:57 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"79HgaUV4fKTaOOzUPH8GHheWN05BzZx+0tfUVZtMePRNvPp52O2GLHV1E449SAwOYhWWlBTO7GHkEQzLUlGnhg=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 166.104.217.128 at 2017-08-16 02:45:57 +0000
+Cannot render console from 166.104.217.128! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 78ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+

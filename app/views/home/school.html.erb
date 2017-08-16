@@ -1,0 +1,143 @@
+<!-- Navigation -->
+<nav class="navigation">
+  <div class="logo">
+    <a class="navbar-brand" href="#"><%= image_tag '찜_로고.png', class: 'main-logo-image img-fluid', width: '80px'%></a>
+  </div>
+  <div class="page-header">
+    <div class="page-one">
+      <div class="page-info">
+        <p>날짜 / 학교 건물 선택</p>
+      </div>
+      <div class="page-location">
+        <p>pbl예약하기 > 날짜 / 학교 건물</p>
+      </div>
+    </div>
+    <div class="page-two">
+      <div class="student-school">
+        <p>소프트웨어융합대학</p>
+      </div>
+      <div class="student-name">
+        <p>윤지우</p>
+      </div>
+      <div class="logout-btn">
+        <p>로그아웃</p>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- Main Content -->
+<div class="main">
+  <div class="side-bar"> 
+    <div class="side-menu-header">
+      <%= image_tag '예약하기.png', class: 'list-logo'%>
+      <p>예약하기</p>
+    </div>
+    <hr>
+    <div class="side-menu-list">
+      <ul>
+        <li>날짜 / 라운지</li>
+        <li>방 / 시간</li>
+        <li>이용자 추가</li>
+      </ul>
+    </div>
+    <div class="side-menu-header">
+      <%= image_tag '예약현황보기.png', class: 'list-logo'%>
+      <p>예약리스트</p>
+    </div>
+    <hr>
+    <div class="side-menu-list">
+      <ul>
+        <li>최근 이용 목록</li>
+        <li>내가 한 예약리스트</li>
+      </ul>
+    </div>
+    <div class="side-menu-header">
+      <%= image_tag '내정보.png', class: 'list-logo'%>
+      <p>내 정보</p>
+    </div>
+    <hr>
+    <div class="side-menu-list">
+      <ul>
+        <li>내 정보</li>
+        <li>건의사항</li>
+        <li>신고 / 패널티</li>
+      </ul>
+    </div>
+  </div>
+  <div class="main-content"> 
+    <div class="date">
+      <p>날짜</p>
+      <hr>
+      <p class="cautious">* 이용하실 날짜를 선택해주세요.</p>
+      <form class="form-inline" action="#">
+        <input class="form-control" type="date" name="date">
+        <input class="form-control submit-btn" type="submit" value="확인">
+      </form>
+    </div>
+    <div class="building">
+      <p>학교 건물</p>
+      <hr>
+      <p class="cautious">* 이용하실 단과대 라운지를 선택해주세요.</p>
+      <div class="school-picker">
+        <div class="lounge-row">
+          <div class="lounge-box-1">
+            <div class="content">
+              <p>1 공학관</p>
+            </div>
+          </div>
+          <div class="lounge-box-2">
+            <div class="content">
+              <p>2 공학관</p>
+            </div>
+          </div>
+          <div class="lounge-box-3">
+            <div class="content">
+              <p>경상대</p> 
+            </div>
+          </div>
+        </div>
+        <div class="lounge-row">
+          <div class="lounge-box-4">
+            <div class="content">
+              <p>국문대</p>
+            </div>
+          </div>
+          <div class="lounge-box-5">
+            <div class="content">
+              <p>언정대</p>
+            </div>
+          </div>
+          <div class="lounge-box-6">
+            <div class="content">
+              <p>창업보육센터</p>
+            </div>
+          </div>
+        </div>
+        <div class="lounge-row">
+          <div class="lounge-box-7">
+            <div class="content">
+              <p>학연산클러스터</p>
+            </div>
+          </div>
+          <div class="lounge-box-8">
+            
+          </div>
+          <div class="lounge-box-9">
+            
+          </div>
+        </div>
+      <div class="lounge-row">
+          <div class="lounge-box-10">
+            
+          </div>
+          <div class="lounge-box-11">
+            
+          </div>
+          <div class="lounge-box-12">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

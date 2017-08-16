@@ -70,8 +70,8 @@ Rails.application.configure do
     :address => "smtp.mailgun.org",
     :port => 2525,
     :domain => "sandboxee95f37da1cb4fdf8b0d5034c724ed32.mailgun.org",
-    :user_name => "postmaster@sandboxee95f37da1cb4fdf8b0d5034c724ed32.mailgun.org",
-    :password => "04c669de921b3710ad617a5fe93f458c",
+    :user_name => ENV["Default_SMTP_Login"],
+    :password => ENV["Default_Password"],
     :enable_starttls_auto => true  
   }
   config.action_mailer.default_url_options = {host:'https://rails5-fmoth.c9users.io'}

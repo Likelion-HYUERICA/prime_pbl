@@ -1,0 +1,2 @@
+module SchoolSelectHelper
+end
