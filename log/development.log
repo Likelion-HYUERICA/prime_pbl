@@ -5064,3 +5064,983 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 78ms (Views: 53.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:41:43 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (4.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (414.8ms)
+Completed 200 OK in 515ms (Views: 474.5ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/users/sign_in" for 166.104.222.60 at 2017-08-16 08:41:51 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5a3PPW07MJ1VvsSjR9q3WBr3JgYORcBkR7LLw7fLBNGmfCYpr3hRt0gvOe/DKiZpDXX1BVll6Axk2Bkuy8tHWw==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 08:41:51', `last_sign_in_at` = '2017-08-16 02:45:54', `current_sign_in_ip` = '166.104.222.60', `sign_in_count` = 5, `updated_at` = '2017-08-16 08:41:51' WHERE `users`.`id` = 1[0m
+  [1m[35m (4.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 189ms (ActiveRecord: 5.6ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:41:51 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.222.60 at 2017-08-16 08:41:53 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TyARC4PAcRdJRReAP+tAK5T+5IgwBiiP4VOQpnOpvBiOvOeyI72lK7lCSmipBvBl76Mh6VjsFz1RAXBjAPv0ew=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 10ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:41:53 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 166.104.222.60 at 2017-08-16 08:41:54 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 166.104.222.60 at 2017-08-16 08:42:11 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GN/NTK1ZOuM5cmYscLiz3f/JqoznXBfNGJ1+xkHLctsWPLDghdVDDZC2iVB2hp7nWF7MKYR5WfDFiyL3mToQOA==", "user"=>{"email"=>"kdpark1623@naver.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (2.1ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kdpark1623@naver.com' LIMIT 1[0m
+  [1m[35m (3.7ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 205ms (Views: 43.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:42:22 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 54ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 166.104.222.60 at 2017-08-16 08:42:32 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 166.104.222.60 at 2017-08-16 08:42:59 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HdtCV6jeZ/sP3c6ibKgjcZKorROoq0NMosAFRIYqcnoTOD/7gFIeFaYZId5qlg5LNT/LtsuODXF/1ll1XtsQmQ==", "user"=>{"email"=>"petanerd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (1.1ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'petanerd@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO `users` (`email`, `encrypted_password`, `confirmation_token`, `confirmation_sent_at`, `created_at`, `updated_at`) VALUES ('petanerd@gmail.com', '$2a$11$ZFioIVlHDrviBCYIR2.LaOl8XEr9ZST6jf.tY3QBkSe7nj4suo7r.', 'vEeF1Rqc_zzX_fsb-nmM', '2017-08-16 08:42:59', '2017-08-16 08:42:59', '2017-08-16 08:42:59')[0m
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering devise/mailer/confirmation_instructions.html.erb
+  Rendered devise/mailer/confirmation_instructions.html.erb (1.3ms)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 210.6ms
+Sent mail to petanerd@gmail.com (4057.3ms)
+Date: Wed, 16 Aug 2017 08:43:00 +0000
+From: kdpark1623@gmail.com
+Reply-To: kdpark1623@gmail.com
+To: petanerd@gmail.com
+Message-ID: <599405944d23a_aa82106c218297f2@fmoth-rails5-5220419.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PHA+7ZmY7JiB7ZWp64uI64ukISBwZXRhbmVyZEBnbWFpbC5jb20hPC9wPgoK
+PHA+7JWE656Y7JeQIOunge2BrOulvCDthrXtlbQg7J247Kad7JmE66OMIO2V
+mOyLnOuptCDrkKnri4jri6QhOjwvcD4KCjxwPjxhIGhyZWY9Imh0dHBzOi8v
+cmFpbHM1LWZtb3RoLmM5dXNlcnMuaW8vdXNlcnMvY29uZmlybWF0aW9uP2Nv
+bmZpcm1hdGlvbl90b2tlbj12RWVGMVJxY196elhfZnNiLW5tTSI+Q29uZmly
+bSBteSBhY2NvdW50PC9hPjwvcD4KCjxwPiDqsJDsgqztlanri4jri6QhIDwv
+cD4=
+
+Completed 500 Internal Server Error in 4890ms (ActiveRecord: 8.1ms)
+
+
+  
+Net::SMTPFatalError (554 Sandbox subdomains are for test purposes only. Please add your own domain or add the address to authorized recipients in Account Settings.
+):
+  
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:965:in `check_response'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:919:in `data'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:664:in `block in send_message'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:859:in `rcptto_list'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:664:in `send_message'
+mail (2.6.6) lib/mail/network/delivery_methods/smtp.rb:112:in `block in deliver!'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/net/smtp.rb:522:in `start'
+mail (2.6.6) lib/mail/network/delivery_methods/smtp.rb:111:in `deliver!'
+mail (2.6.6) lib/mail/message.rb:2149:in `do_delivery'
+mail (2.6.6) lib/mail/message.rb:237:in `block in deliver'
+actionmailer (5.1.3) lib/action_mailer/base.rb:558:in `block in deliver_mail'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.3) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `instrument'
+actionmailer (5.1.3) lib/action_mailer/base.rb:556:in `deliver_mail'
+mail (2.6.6) lib/mail/message.rb:237:in `deliver'
+actionmailer (5.1.3) lib/action_mailer/message_delivery.rb:96:in `block in deliver_now'
+actionmailer (5.1.3) lib/action_mailer/rescuable.rb:15:in `handle_exceptions'
+actionmailer (5.1.3) lib/action_mailer/message_delivery.rb:95:in `deliver_now'
+devise (4.3.0) lib/devise/models/authenticatable.rb:191:in `send_devise_notification'
+devise (4.3.0) lib/devise/models/confirmable.rb:119:in `send_confirmation_instructions'
+devise (4.3.0) lib/devise/models/confirmable.rb:181:in `send_on_create_confirmation_instructions'
+activesupport (5.1.3) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.3) lib/active_support/callbacks.rb:260:in `block in conditional'
+activesupport (5.1.3) lib/active_support/callbacks.rb:511:in `block in invoke_after'
+activesupport (5.1.3) lib/active_support/callbacks.rb:511:in `each'
+activesupport (5.1.3) lib/active_support/callbacks.rb:511:in `invoke_after'
+activesupport (5.1.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+activesupport (5.1.3) lib/active_support/callbacks.rb:827:in `_run_commit_callbacks'
+activerecord (5.1.3) lib/active_record/transactions.rb:343:in `committed!'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:86:in `commit_records'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:178:in `block in commit_transaction'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:168:in `commit_transaction'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:207:in `block in within_new_transaction'
+/usr/local/rvm/rubies/ruby-2.3.4/lib/ruby/2.3.0/monitor.rb:214:in `mon_synchronize'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/transaction.rb:191:in `within_new_transaction'
+activerecord (5.1.3) lib/active_record/connection_adapters/abstract/database_statements.rb:235:in `transaction'
+activerecord (5.1.3) lib/active_record/transactions.rb:210:in `transaction'
+activerecord (5.1.3) lib/active_record/transactions.rb:381:in `with_transaction_returning_status'
+activerecord (5.1.3) lib/active_record/transactions.rb:308:in `block in save'
+activerecord (5.1.3) lib/active_record/transactions.rb:323:in `rollback_active_record_state!'
+activerecord (5.1.3) lib/active_record/transactions.rb:307:in `save'
+activerecord (5.1.3) lib/active_record/suppressor.rb:42:in `save'
+devise (4.3.0) app/controllers/devise/registrations_controller.rb:17:in `create'
+actionpack (5.1.3) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.3) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.3) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.3) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.3) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.3) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.3) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.3) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.3) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.3) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.3) lib/action_dispatch/routing/mapper.rb:16:in `block in <class:Constraints>'
+actionpack (5.1.3) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:46:in `block in serve'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.3) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.7) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.7) lib/warden/manager.rb:35:in `catch'
+warden (1.2.7) lib/warden/manager.rb:35:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.3) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.3) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.3) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.3) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.3) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.3) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.3) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.3) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/users" for 166.104.222.60 at 2017-08-16 08:44:49 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HdtCV6jeZ/sP3c6ibKgjcZKorROoq0NMosAFRIYqcnoTOD/7gFIeFaYZId5qlg5LNT/LtsuODXF/1ll1XtsQmQ==", "user"=>{"email"=>"petanerd@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'petanerd@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 184ms (Views: 39.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:44:56 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 166.104.222.60 at 2017-08-16 08:45:54 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 166.104.222.60 at 2017-08-16 08:46:53 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lfaC1VBkca3AfZrFo+Bp4nWp+frx7tQYE1D3c9CS4xqbFf95eOgIQ2m5dbml3kTY0j6fX5LLmiXORqtCCGOB+Q==", "user"=>{"email"=>"kdpark1623@naver.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kdpark1623@naver.com' LIMIT 1[0m
+  [1m[35m (25.6ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 212ms (Views: 39.5ms | ActiveRecord: 27.2ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:47:02 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 166.104.222.60 at 2017-08-16 08:47:17 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 166.104.222.60 at 2017-08-16 08:47:26 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C1NvGPsNTa6FDBR/tD7zBvVw12i9u9+QzXvBCf8qSSkFsBK004E0QCzI+wOyAN48Uuexzd6eka0QbZ04J9sryg==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kdpark1623@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 192ms (Views: 44.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users" for 166.104.222.60 at 2017-08-16 08:53:59 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CNm6XeGxi/+O/KKzJRCvezLEtR7Jq8sC4xIuRNKjVvABbx8uWHMu3t9x1ZQlLMe9S4QrT8hz0xaixnEUjb7uCA==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM `users` WHERE `users`.`email` = BINARY 'kdpark1623@gmail.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (98.3ms)
+Completed 200 OK in 153ms (Views: 141.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:54:02 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 138ms (Views: 137.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.222.60 at 2017-08-16 08:54:05 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SCmn9tuu33ig7rv3KGV7+BMG6E/DLm0WwhhmswnMIafZKrT2JqhJq7TpSvLrGnpPrPjKnbffpHKA8oDQV58X3w==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 08:54:05', `last_sign_in_at` = '2017-08-16 08:41:51', `last_sign_in_ip` = '166.104.222.60', `sign_in_count` = 6, `updated_at` = '2017-08-16 08:54:05' WHERE `users`.`id` = 1[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 155ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:54:06 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.222.60 at 2017-08-16 08:54:07 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Mk1KS40Ev9ksJpex6gnaGi7xV8rKp4i1ybb2d9qPnNPVCKzMtBSLQshDaVAOGsu17o0jGcPCTM7ouf2gbws0Lg=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 6ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:54:07 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 57ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 166.104.222.60 at 2017-08-16 08:54:26 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/db" for 166.104.222.60 at 2017-08-16 08:54:40 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsDb::DashboardController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/dashboard/index.html.erb within layouts/rails_db/application
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/dashboard/index.html.erb within layouts/rails_db/application (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/shared/_header.html.erb (7.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/shared/_sidebar.html.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/shared/_gems.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/shared/_footer.html.erb (5.8ms)
+Completed 200 OK in 269ms (Views: 266.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/rails/db/tables/users/data" for 166.104.222.60 at 2017-08-16 08:54:43 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by RailsDb::TablesController#data as JS
+  Parameters: {"table_id"=>"users"}
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM `users`[0m
+  Rendering /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/data.js.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/shared/_exp_col.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/_condition_fields.html.erb (26.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/_condition_fields.html.erb (19.7ms)
+  [1m[36m Load (0.8ms)[0m  [1m[34mSELECT  `users`.* FROM `users` LIMIT 25 OFFSET 0[0m
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/_row.html.erb (4.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/_row.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/_row.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/_row.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/_sql.html.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/_data.html.erb (142.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/rails_db-1.6.0/app/views/rails_db/tables/data.js.erb (146.7ms)
+Completed 200 OK in 187ms (Views: 143.9ms | ActiveRecord: 12.4ms)
+
+
+Started POST "/users" for 166.104.222.60 at 2017-08-16 08:55:16 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2FvwIPSQvLaUVcJwQ+wPHmd4ORfYq+7g47uiIwVt8b1K+Y7sVFDw056VJlKP37Kiy803nJS1jnF7cNGLmWd5kA==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 49ms (Views: 40.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:59:25 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.222.60 at 2017-08-16 08:59:55 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EiBC693Gk4BWGayp80n3UMl1PZlOfi98TfHVq7m0xTTcU1D0WRgFzppPpquqSP8DXBz5maECAeO1uOZuqOrxhg==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 08:59:55', `last_sign_in_at` = '2017-08-16 08:54:05', `sign_in_count` = 7, `updated_at` = '2017-08-16 08:59:55' WHERE `users`.`id` = 1[0m
+  [1m[35m (5.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 157ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 08:59:55 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.222.60 at 2017-08-16 09:00:06 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FVBR022nWT3//waRDZU4OLDy1OAp32ItJR/biV3hR19+j5p4BsC5VpYMPFOslG8Qlol44dTKFtvFDTOeqkYupQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 7ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:00:07 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.222.60 at 2017-08-16 09:00:14 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"63HlBCQoCPXlFZahR5TT9tVrAgaqOQeOq6XO5qJl0Lx7cUeoYAZHZaIpfxqvQbT+Szc+uoZ8rX3lgb3Qk018rg==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 09:00:14', `last_sign_in_at` = '2017-08-16 08:59:55', `sign_in_count` = 8, `updated_at` = '2017-08-16 09:00:14' WHERE `users`.`id` = 1[0m
+  [1m[35m (12.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 211ms (ActiveRecord: 13.5ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:00:14 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.222.60 at 2017-08-16 09:01:53 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5+64dYsuGItUqk7u4LZk+dVheGn8e3TrTc/77oEP7/WCBlaet8rpgDqFW6cL1qrMFKtIAzt3Ua9tAQ1QoAKBgw=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:01:53 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.222.60 at 2017-08-16 09:03:12 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a62MMmfnm4uW9jIWrWchp1NFtxG4/PlEFRlYgdm8KJ6bJSxBlqSwzawzUYmaCijl+JAgnfBfs0fsjpEfut1dMQ==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 09:03:12', `last_sign_in_at` = '2017-08-16 09:00:14', `sign_in_count` = 9, `updated_at` = '2017-08-16 09:03:12' WHERE `users`.`id` = 1[0m
+  [1m[35m (4.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 220ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:03:13 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.222.60 at 2017-08-16 09:03:16 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lVF8Z1Di/fgrduq4Ey8jpYq5OqK47snfWoCQMveUtz89QfWOUCfG5fRV90bA7gNuz7X+Y2FhJfo3h1XdzXhxdQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 7ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:03:17 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.222.60 at 2017-08-16 09:05:15 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z61f6akcMIqxQXlcF3q+rVYSzh+h8nBvCExfw8/6AIqoYwtWPSg8mvpo8Jxl7WiczNeLfZ60Qs7evMKdRuCIKQ==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (26.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 09:05:15', `last_sign_in_at` = '2017-08-16 09:03:12', `sign_in_count` = 10, `updated_at` = '2017-08-16 09:05:15' WHERE `users`.`id` = 1[0m
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 185ms (ActiveRecord: 34.7ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:05:16 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.222.60 at 2017-08-16 09:05:18 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GYrRflkqs89N+p2OAawkgfgPGlnO4Wta/Hz2nGIhH+94CnJ/VI8hjjyCaRrsvAEafSdUKNyU8pEFLrTnU78Mzg=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:05:18 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:07:50 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 67ms (Views: 44.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/users/confirmation/new" for 166.104.222.60 at 2017-08-16 09:07:55 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#new as HTML
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 09:07:59 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5wGq3tLwXBnJq/jI/luJIqYf3oaSnp0g+nu3jAeWYcvOU4zw4P9K4JleXRBhwHarAi3xr0hpQEZDwbgopEL4oA==", "user"=>{"email"=>"petanerd@gmail.com"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'petanerd@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'petanerd@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering devise/mailer/confirmation_instructions.html.erb
+  Rendered devise/mailer/confirmation_instructions.html.erb (0.9ms)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 169.9ms
+Sent mail to petanerd@gmail.com (3991.1ms)
+Date: Wed, 16 Aug 2017 09:08:00 +0000
+From: kdpark1623@gmail.com
+Reply-To: kdpark1623@gmail.com
+To: petanerd@gmail.com
+Message-ID: <59940b70105c1_aa82106c0c4298a@fmoth-rails5-5220419.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PHA+7ZmY7JiB7ZWp64uI64ukISBwZXRhbmVyZEBnbWFpbC5jb20hPC9wPgoK
+PHA+7JWE656Y7JeQIOunge2BrOulvCDthrXtlbQg7J247Kad7JmE66OMIO2V
+mOyLnOuptCDrkKnri4jri6QhOjwvcD4KCjxwPjxhIGhyZWY9Imh0dHBzOi8v
+cmFpbHM1LWZtb3RoLmM5dXNlcnMuaW8vdXNlcnMvY29uZmlybWF0aW9uP2Nv
+bmZpcm1hdGlvbl90b2tlbj12RWVGMVJxY196elhfZnNiLW5tTSI+Q29uZmly
+bSBteSBhY2NvdW50PC9hPjwvcD4KCjxwPiDqsJDsgqztlanri4jri6QhIDwv
+cD4=
+
+Redirected to https://rails5-fmoth.c9users.io/users/sign_in
+Completed 302 Found in 4184ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/users/sign_in" for 166.104.222.60 at 2017-08-16 09:08:04 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/confirmation?confirmation_token=vEeF1Rqc_zzX_fsb-nmM" for 218.235.241.116 at 2017-08-16 09:08:30 +0000
+Cannot render console from 218.235.241.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"vEeF1Rqc_zzX_fsb-nmM"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`confirmation_token` = 'vEeF1Rqc_zzX_fsb-nmM' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE `users` SET `confirmed_at` = '2017-08-16 09:08:30', `updated_at` = '2017-08-16 09:08:30' WHERE `users`.`id` = 4[0m
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/users/sign_in
+Completed 302 Found in 10ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/users/sign_in" for 218.235.241.116 at 2017-08-16 09:08:30 +0000
+Cannot render console from 218.235.241.116! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (27.8ms)
+Completed 200 OK in 72ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 166.104.222.60 at 2017-08-16 09:09:55 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 166.104.222.60 at 2017-08-16 09:10:15 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.222.60 at 2017-08-16 09:10:17 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JWcc8Wvfh/KHvVAtMjF4bU6UUBlnl2l/wOMTx9CWEpJ6v4SlS7EoQwczmhXs+oeFwcNiGOP5GnByG8+WvqzYNA==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 09:10:18', `last_sign_in_at` = '2017-08-16 09:05:15', `sign_in_count` = 11, `updated_at` = '2017-08-16 09:10:18' WHERE `users`.`id` = 1[0m
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 162ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:10:18 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.222.60 at 2017-08-16 09:10:23 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"h/XO3jb6QRuVEWE+CIS1O8FedpBc8RIS8KW2Z8ldUhxqpkt/pFIBY6b4qUjfe5iZbbTVSee146OHypTT+dB/qQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 6ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 09:10:23 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/confirmation?confirmation_token=iPKr_G7boVtxCw39q3HR" for 166.104.222.60 at 2017-08-16 15:07:51 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"iPKr_G7boVtxCw39q3HR"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`confirmation_token` = 'iPKr_G7boVtxCw39q3HR' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`confirmation_token` = '617bab5ad888bb847e5af55ce47648720f24aa22448493fad0a76f1957a19a77' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 686ms (Views: 175.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/users/sign_in" for 166.104.222.60 at 2017-08-16 15:09:21 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.222.60 at 2017-08-16 15:09:26 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9r2k2JBy4Kq7z80w1zByVZ4hm2DYEmB1qN5ycR11k84avXLGPSGrlsR77eeUDXYMxIrJVmuumBeIGHsVxI6Rgw==", "user"=>{"email"=>"kdpark1623@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@gmail.com' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[33mUPDATE `users` SET `current_sign_in_at` = '2017-08-16 15:09:26', `last_sign_in_at` = '2017-08-16 09:10:18', `sign_in_count` = 12, `updated_at` = '2017-08-16 15:09:26' WHERE `users`.`id` = 1[0m
+  [1m[35m (3.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 311ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 15:09:26 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 69ms (Views: 67.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 166.104.222.60 at 2017-08-16 15:09:28 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_in" for 166.104.222.60 at 2017-08-16 15:09:34 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 15:09:34 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 166.104.222.60 at 2017-08-16 15:09:37 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Z3sEQgsNICbc3UgEZk3D1YTRIuKQJ/2lVqoWzyhuzowP2ukmptYiTuJQWM7ZsoJujanEP8yyCWtkb+VHMN09WQ=="}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to https://rails5-fmoth.c9users.io/
+Completed 302 Found in 7ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 166.104.222.60 at 2017-08-16 15:09:37 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 166.104.222.60 at 2017-08-16 15:09:44 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VSq5n15m0ooClzzAoN6dj/riut+ofwgxiRM3CTywJkeYd8Ezfx5Pkyd8gX59z1MYdIHaV5W6cfnX4VOG0efjAQ==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.4ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VSq5n15m0ooClzzAoN6dj/riut+ofwgxiRM3CTywJkeYd8Ezfx5Pkyd8gX59z1MYdIHaV5W6cfnX4VOG0efjAQ==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr", "password"=>"[FILTERED]"}, "commit"=>"로그인"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 435ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/confirmation?confirmation_token=iPKr_G7boVtxCw39q3HR" for 166.104.222.60 at 2017-08-16 15:12:33 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"iPKr_G7boVtxCw39q3HR"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`confirmation_token` = 'iPKr_G7boVtxCw39q3HR' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`confirmation_token` = '617bab5ad888bb847e5af55ce47648720f24aa22448493fad0a76f1957a19a77' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 53ms (Views: 49.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:12:49 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RpwGmG77HzamMzPzrsWu7IqAVEiu58tAB2HWKn5m8U6LwX40T4OCL4PYjk1z1GB7BOM0wJMisohZk7KlkzE0CA==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (113.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 183ms (Views: 54.2ms | ActiveRecord: 114.1ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:16:50 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Mfgpuz74eksQxaiPTySjntJY2W5pV5prtuuVNWBHrHP8pVEXH4DnUjUuFTGSNW0JXDu55lSS46PoGfG6jRBpNQ==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (57.5ms)
+Completed 200 OK in 108ms (Views: 98.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:16:52 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z8A2arcZPiQYF520hRFEKVUVtXP7MT3X2rWhvAg7rSGqnU7GlmGjPT38IApYAIq+23bV+8b0RB+ER8Uz5WxoZw==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 131ms (Views: 121.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:16:56 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nVDIIzvH0ndHs6vZOz9X5peQrYgTv0K08u1InHMOROZQDbCPGr9PbmJYFmfmLplxGfPNAC56O3ysHywTnlmBoA==", "user"=>{"email"=>"kdpark1623"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.4ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 69ms (Views: 53.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:16:59 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R4TVyk1eFypNIOqnmEARYaEtyf8AHWjCYa6jZj9wq1yK2a1mbCaKM2jLVxlFUd/2L06pdz3YEQo/XMfp0iduGg==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 68ms (Views: 53.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:17:00 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"teTVnyKbLPaUFpFeKrH15ETo0j3fxWNLsfoPNRlwX7p4ua0zA+Ox77H9LOD3oDtzyouyteIAGoPvCGu69Cea/A==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 141ms (Views: 126.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:17:01 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gg8Q31dquYfJ26b9BgR42Vaa9rtvRa3hwH1kZ7RaLohPUmhzdhIknuwwG0PbFbZO2PmWM1KA1CmejwDoWQ3rzg==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 55ms (Views: 43.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:17:01 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4CkVMW9W7KHFhjbW8dy1RgDztfg2l0wFXKy53hcpBUgtdG2dTi5xuOBti2gszXvRjpDVcAtSNc0CXt1R+n7ADg==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 54ms (Views: 41.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:17:01 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y7OOOxjFJMdngzlQyujnIkfLNL2MRv0iUR0gs3zcdmgG7vaXOb253kJohO4X+Sm1yahUNbGDhOoP70Q8kYuzLg==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 70ms (Views: 57.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:17:02 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5h5CoL/4TWhly2In5+3oKqnbJxA8iVGASLJ2au/LvPgrQzoMnoDQcUAg35k6/Ca9J7hHmAFMKEgWQBLlApx5vg==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 158ms (Views: 147.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:17:02 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X6mSh5m8XxYOilihvnvgja6BhXcJS+doSjUFlNJ3DEaS9OoruMTCDyth5R9jai4aIOLl/zSOnqAUx2EbPyDJAA==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 60ms (Views: 47.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/confirmation" for 166.104.222.60 at 2017-08-16 15:17:03 +0000
+Cannot render console from 166.104.222.60! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::ConfirmationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lQXWfWyip2zAFSoGjUEXqE8JvJaSfngxiTxvDZo0A7hYWK7RTdo6deX+l7hQUNk/wWrcHq+7AfnXzguCd2PG/g==", "user"=>{"email"=>"kdpark1623@hanyang.ac.kr"}, "commit"=>"Resend confirmation instructions"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`unconfirmed_email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`email` = 'kdpark1623@hanyang.ac.kr' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering devise/confirmations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/confirmations/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 103ms (Views: 93.3ms | ActiveRecord: 0.4ms)
+
+
