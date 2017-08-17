@@ -6044,3 +6044,1009 @@ Processing by Devise::ConfirmationsController#create as HTML
 Completed 200 OK in 103ms (Views: 93.3ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/time/index" for 127.0.0.1 at 2017-08-17 17:18:51 +0900
+  [1m[35m (21.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by TimeController#index as HTML
+  Rendering time/index.html.erb within layouts/application
+  Rendered time/index.html.erb within layouts/application (4832.7ms)
+Completed 200 OK in 4940ms (Views: 4931.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/school" for 127.0.0.1 at 2017-08-17 17:19:40 +0900
+Processing by HomeController#school as HTML
+  Rendering home/school.html.erb within layouts/application
+  Rendered home/school.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 65ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:20:27 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 79ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:20:42 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:22:35 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 3038ms (Views: 3036.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:23:06 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:23:27 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:23:32 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:25:43 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:26:11 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 3147ms (Views: 3145.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/time/index" for 127.0.0.1 at 2017-08-17 17:26:16 +0900
+Processing by TimeController#index as HTML
+  Rendering time/index.html.erb within layouts/application
+  Rendered time/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 52ms (Views: 47.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/school" for 127.0.0.1 at 2017-08-17 17:26:24 +0900
+Processing by HomeController#school as HTML
+  Rendering home/school.html.erb within layouts/application
+  Rendered home/school.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:26:31 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:28:48 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 3089ms (Views: 3086.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:29:30 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2874ms (Views: 2872.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:30:06 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 3020ms (Views: 3017.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:31:16 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:31:28 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 44ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:31:43 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 2816ms (Views: 2813.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:32:29 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2921ms (Views: 2919.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:32:59 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 2811ms (Views: 2808.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:33:40 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 2972ms (Views: 2969.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:34:16 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 3190ms (Views: 3188.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:34:32 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 3350ms (Views: 3347.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:35:08 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 3230ms (Views: 3227.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:35:59 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:36:07 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:37:23 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2845ms (Views: 2843.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:37:40 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 2861ms (Views: 2859.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:38:02 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 2867ms (Views: 2865.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:38:44 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 3097ms (Views: 3095.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:39:01 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 2796ms (Views: 2794.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:39:29 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 2862ms (Views: 2859.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:39:46 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:39:59 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:41:20 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2989ms (Views: 2986.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:42:41 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:43:09 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 2839ms (Views: 2836.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:43:27 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2875ms (Views: 2872.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:43:52 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 2878ms (Views: 2876.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:45:30 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2829ms (Views: 2825.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:45:55 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 2877ms (Views: 2875.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:46:21 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 2917ms (Views: 2915.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:47:54 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (3662.1ms)
+Completed 200 OK in 3758ms (Views: 3754.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:48:21 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 2849ms (Views: 2847.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:48:43 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 2961ms (Views: 2959.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:49:06 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 2874ms (Views: 2871.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:50:33 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:50:34 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:50:42 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:51:03 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:51:41 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2840ms (Views: 2838.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:52:10 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 2850ms (Views: 2848.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:52:23 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:52:31 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 2968ms (Views: 2966.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:52:42 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:53:16 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 2841ms (Views: 2838.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:53:25 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 2835ms (Views: 2832.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:53:38 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 2849ms (Views: 2846.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:53:58 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 3275ms (Views: 3272.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:56:08 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 2965ms (Views: 2962.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:56:18 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2842ms (Views: 2839.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:57:02 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 65ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:57:16 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 2889ms (Views: 2887.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:57:30 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 3703ms (Views: 3701.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:57:46 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 2959ms (Views: 2956.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:59:27 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 2952ms (Views: 2949.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 17:59:49 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 3112ms (Views: 3109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:00:08 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2843ms (Views: 2841.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:00:26 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 3649ms (Views: 3646.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:19:45 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 3313ms (Views: 3303.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:20:06 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:20:44 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 3057ms (Views: 3055.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:21:16 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 2931ms (Views: 2928.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:21:28 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 2911ms (Views: 2909.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:21:43 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 2830ms (Views: 2827.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:21:49 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 52ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:22:18 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 2908ms (Views: 2905.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:23:21 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 2973ms (Views: 2971.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:24:48 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:25:12 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:25:18 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:25:22 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 57ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:25:35 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 54ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:26:00 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 2817ms (Views: 2815.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:26:15 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2889ms (Views: 2887.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:26:23 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 2889ms (Views: 2887.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:27:27 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 3073ms (Views: 3071.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:27:41 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2933ms (Views: 2931.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:28:00 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 48ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:28:27 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 3053ms (Views: 3051.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:30:33 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 3015ms (Views: 3005.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:31:27 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 2928ms (Views: 2925.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:32:00 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 2914ms (Views: 2911.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:32:08 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 2895ms (Views: 2892.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:32:18 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2861ms (Views: 2859.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:32:31 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 2869ms (Views: 2866.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:32:42 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 3284ms (Views: 3281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:33:05 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2901ms (Views: 2899.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:33:35 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 2938ms (Views: 2934.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:33:50 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 2929ms (Views: 2926.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:34:01 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 2953ms (Views: 2951.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:34:52 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 3007ms (Views: 3004.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:36:39 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 64ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:36:48 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 2935ms (Views: 2933.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:37:20 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 2877ms (Views: 2874.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:37:38 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 2955ms (Views: 2952.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:37:46 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 2842ms (Views: 2839.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:37:54 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:38:09 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 2817ms (Views: 2815.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:38:17 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 2962ms (Views: 2960.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:38:30 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 2896ms (Views: 2893.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:38:40 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 2823ms (Views: 2821.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:38:55 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 2874ms (Views: 2872.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:39:04 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 2820ms (Views: 2818.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:40:54 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 3321ms (Views: 3312.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:41:49 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 2976ms (Views: 2973.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:42:10 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 2805ms (Views: 2803.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:42:29 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 2865ms (Views: 2862.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:45:31 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 2970ms (Views: 2967.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:45:44 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 2220ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "				width: ": expected expression (e.g. 1px, bold), was ";"):
+     6: 
+     7: 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     8: 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.1/umd/popper.js" integrity="sha256-yxrY2a2mCZxbaLVcqjg184Vo4c+qw5TYHPSZZdIWY2s=" crossorigin="anonymous"></script>
+     9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11: 	
+    12:     
+  
+app/assets/stylesheets/room.scss:252
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3640932663098109726_70315832687020'
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:48:31 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (8.8ms)
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "				width: ": expected expression (e.g. 1px, bold), was ";"):
+     6: 
+     7: 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     8: 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.1/umd/popper.js" integrity="sha256-yxrY2a2mCZxbaLVcqjg184Vo4c+qw5TYHPSZZdIWY2s=" crossorigin="anonymous"></script>
+     9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11: 	
+    12:     
+  
+app/assets/stylesheets/room.scss:252
+app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___3640932663098109726_70315860203380'
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:48:37 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 52ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:54:34 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 2980ms (Views: 2978.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:55:48 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 71ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:55:49 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 46ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:55:50 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:55:54 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:55:55 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:56:14 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:56:15 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:56:18 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:56:37 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 2897ms (Views: 2895.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:56:46 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 2914ms (Views: 2912.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:56:59 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 2924ms (Views: 2921.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:57:08 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 2827ms (Views: 2825.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:57:28 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 2853ms (Views: 2850.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:57:36 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 2847ms (Views: 2844.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:58:43 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 75ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/room/index" for 127.0.0.1 at 2017-08-17 18:58:47 +0900
+Processing by RoomController#index as HTML
+  Rendering room/index.html.erb within layouts/application
+  Rendered room/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
